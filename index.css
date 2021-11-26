@@ -1,0 +1,124 @@
+.main {
+    margin-top: 10px;
+    margin-left: 220px;
+    width: 980px;
+    height: 455px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: green;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: purple;   */
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.liftservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0px;
+}
+.bargain {
+    margin-top: 5px;
+}
+.bargain img {
+    height: 100%;   
+}
+.news-hd {
+    padding: 0 15px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after{
+    content: "\e905";
+    font-family: "icomoon";
+}
+.news-bd {
+    padding: 5px 15px 0px;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+
+}
+.liftservice ul {
+    width: 252px;
+}
+.liftservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.liftservice ul li i {
+    display: inline-block;
+    margin-top: 12px;
+    width: 24px;
+    height: 28px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+.recom {
+    margin-top: 12px;
+    height: 163px;
+}
+.recom_hd,.recom_bd {
+    float: left;
+}
+.recom_hd {
+    height: 163px;
+    width: 204px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom_bd ul li{
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img {
+    width: 249px;
+    height: 165px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: "";
+    height: 145px;
+    width: 1px;
+    background-color: #ddd;
+}
+.jiadian .box_hd {
+    height: 30px;
+    background-color: pink;
+    border-bottom: 2px solid #c81623;
+}
+.jiadian .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+
+
+
+
